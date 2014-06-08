@@ -16,6 +16,6 @@ y3<-as.numeric(data$Sub_metering_3)
 plot(x,y1,type="l",xlab="",ylab="Energy sub metering")
 lines(x,y2,col="red")
 lines(x,y3,col="blue")
-legend("topright",lty=1,legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),col=c("black","red","blue"),bty="n")
+legend("topright",legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=1,lwd=1,col=c("black","red","blue"),ncol=1,cex=0.8, bty="1",  inset =c(0,0),text.col=c("black"))
 
 dev.off()
